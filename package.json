@@ -1,0 +1,27 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "Use Cypress with Cucumber for UI Testing",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^3.8.1",
+    "cypress-cucumber-preprocessor": "^1.19.0"
+  },
+  "scripts": {
+    "cypress:open": "cypress open -e TAGS=@Google"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annilla/cycpress-cucumber-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annilla/cycpress-cucumber-practice/issues"
+  },
+  "homepage": "https://github.com/Annilla/cycpress-cucumber-practice#readme"
+}
